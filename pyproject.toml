@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "knapsack"
-version = "0.0.5"
+version = "0.0.6"
 description = "`knapsack` is a package for for solving knapsack problem."
 authors = ["SaitoTsutomu <tsutomu7@hotmail.co.jp>"]
 homepage = "https://github.com/SaitoTsutomu/knapsack"

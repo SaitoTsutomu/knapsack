@@ -6,7 +6,7 @@ except ImportError:
     from backports.functools_lru_cache import lru_cache
 
 # see pyproject.toml
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 __author__ = "Saito Tsutomu <tsutomu7@hotmail.co.jp>"
 
 

@@ -10,6 +10,8 @@ Algorithm: Dynamic Optimization
    capacity = 100
    knapsack.knapsack(size, weight).solve(capacity)
 
+See also https://pypi.org/project/ortoolpy/
+
 Requirements
 ------------
 * Python 3
