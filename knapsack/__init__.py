@@ -27,7 +27,7 @@ class knapsack:
         self.size = size
         self.weight = weight
 
-    @lru_cache(maxsize=4096)
+    @lru_cache(maxsize=4096 * 4096)
     def solve(self, cap, i=0):
         if cap < 0:
             return -sum(self.weight), []
