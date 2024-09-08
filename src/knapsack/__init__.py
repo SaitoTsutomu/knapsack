@@ -1,16 +1,11 @@
-try:
-    from functools import lru_cache
-except ImportError:
-    # For Python2
-    # pip install backports.functools_lru_cache
-    from backports.functools_lru_cache import lru_cache
+from functools import lru_cache
 
 # see pyproject.toml
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 __author__ = "Saito Tsutomu <tsutomu7@hotmail.co.jp>"
 
 
-class knapsack:
+class knapsack:  # noqa: N801
     """Solving the knapsack problem.
 
     Maximize sum of selected weight.
@@ -29,7 +24,7 @@ class knapsack:
         self.size = size
         self.weight = weight
 
-    @lru_cache(maxsize=4096 * 4096)
+    @lru_cache(maxsize=4096 * 4096)  # noqa: B019
     def solve(self, cap: int, i: int = 0):
         if cap < 0:
             return -sum(self.weight), []
