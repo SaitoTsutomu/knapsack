@@ -1,9 +1,5 @@
 from functools import lru_cache
 
-# see pyproject.toml
-__version__ = "0.3.0"
-__author__ = "Saito Tsutomu <tsutomu7@hotmail.co.jp>"
-
 
 class knapsack:  # noqa: N801
     """Solving the knapsack problem.
