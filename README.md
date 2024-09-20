@@ -1,7 +1,7 @@
 `knapsack` is a package for solving knapsack problem.
 
 * Maximize sum of selected weight.
-* Sum of selected size is les than capacity.
+* Sum of selected size is less than capacity.
 * Algorithm: Dynamic Optimization
 
 ## Usage
