@@ -1,4 +1,9 @@
 from functools import lru_cache
+from importlib.metadata import metadata
+
+_package_metadata = metadata(__package__)
+__version__ = _package_metadata["Version"]
+__author__ = _package_metadata.get("Author-email", "")
 
 
 class knapsack:  # noqa: N801
