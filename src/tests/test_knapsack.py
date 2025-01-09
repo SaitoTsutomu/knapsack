@@ -1,3 +1,4 @@
+# flake8: noqa: S101
 from knapsack import knapsack
 
 
